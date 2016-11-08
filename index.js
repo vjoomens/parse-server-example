@@ -25,7 +25,7 @@ var api = new ParseServer({
 	  senderId: process.env.GCM_SENDER_ID,
 	  apiKey: process.env.GCM_API_KEY
 	},
-	ios: ios: [ 
+	ios: [ 
       {
         pfx: __dirname + '/certs/ios/dev.p12', // Dev PFX or P12
         bundleId: process.env.IOS_BUNDLE_ID, 
