@@ -33,7 +33,7 @@ var api = new ParseServer({
       },
       {
         pfx: __dirname + '/certs/ios/prod.p12', // Prod PFX or P12
-        bundleId: 'net.oomens.whatznew',  
+        bundleId: process.env.IOS_BUNDLE_ID, 
         production: true // Prod
       } 
     ]
