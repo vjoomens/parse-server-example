@@ -28,7 +28,7 @@ var api = new ParseServer({
 	ios: ios: [
       {
         pfx: __dirname + '/certs/ios/dev.p12', // Dev PFX or P12
-        bundleId: process.env.IOS_BUNDLE_ID,
+        bundleId: process.env.IOS_BUNDLE_ID, 
         production: false // Dev
       },
       {
