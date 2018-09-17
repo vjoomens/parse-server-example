@@ -26,11 +26,11 @@ var api = new ParseServer({
 	  apiKey: process.env.GCM_API_KEY
 	},
 	ios: [ 
-      {
-        pfx: __dirname + '/certs/ios/dev.p12', // Dev PFX or P12
-        bundleId: process.env.IOS_BUNDLE_ID, 
-        production: false // Dev
-      },
+//       {
+//         pfx: __dirname + '/certs/ios/dev.p12', // Dev PFX or P12
+//         bundleId: process.env.IOS_BUNDLE_ID, 
+//         production: false // Dev
+//       },
       {
         pfx: __dirname + '/certs/ios/prod.p12', // Prod PFX or P12
         bundleId: process.env.IOS_BUNDLE_ID, 
